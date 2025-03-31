@@ -138,12 +138,6 @@ The frontend implements error handling at various levels:
 
 The backend uses Mongoose to interact with the MongoDB database. The `models` directory contains the schema definition for the `User` model
 
-    type: String,
-    required: true,
-  },
-});
-
-
 Controllers
 Controllers in the controllers directory handle the business logic for each API endpoint. They interact with the Mongoose models to perform database operations and send responses.
 
